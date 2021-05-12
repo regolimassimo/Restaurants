@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_orientation"
+        android:title="@string/change_orientation"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_anti_clock_spin"
+        android:title="@string/anti_clock_spin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clock_spin"
+        android:title="@string/clock_spin"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cube_in_depth"
+        android:title="@string/cube_in_depth"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cube_in_rotate"
+        android:title="@string/cube_in_rotate"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_depth"
+        android:title="@string/depth"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_horizontal_flip"
+        android:title="@string/horizontal_flip"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_vertical_flip"
+        android:title="@string/vertical_flip"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_fade_out"
+        android:title="@string/fade_out"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_fade_out_vert"
+        android:title="@string/fade_out_vert"
+        app:showAsAction="always" />
+</menu>
